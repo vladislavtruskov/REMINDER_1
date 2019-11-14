@@ -1,0 +1,34 @@
+﻿<Window x:Class="Reminder.ShowActiveRemind"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Reminder"
+        mc:Ignorable="d"
+        Title="Не забыл?" Height="238" Width="300" ResizeMode="NoResize">
+    <StackPanel Orientation="Vertical" VerticalAlignment="Top">
+        <GroupBox Margin="5" Padding="5" Header="Напоминаю:">
+            <TextBlock x:Name="remind_title" Margin="5"></TextBlock>
+        </GroupBox>
+
+        <Expander Margin="5" Header="Подробнее..." x:Name="remind_expander" 
+                   Padding="5" Collapsed="remind_expander_Collapsed" Expanded="remind_expander_Expanded">
+            <StackPanel Orientation="Vertical" VerticalAlignment="Top">
+                <GroupBox Margin="5" Padding="5" Header="Когда:">
+                    <TextBlock Margin="5" x:Name="remind_date"></TextBlock>
+                </GroupBox>
+
+                <GroupBox Margin="5" Padding="5" Header="Что именно:">
+                    <TextBlock Margin="5" x:Name="remind_discription" Height="200"></TextBlock>
+                </GroupBox>
+            </StackPanel>
+        </Expander>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Name="btn_complete" Grid.Column="1" Margin="5" Click="btn_complete_Click">Завершить</Button>
+        </Grid>
+    </StackPanel>
+</Window>

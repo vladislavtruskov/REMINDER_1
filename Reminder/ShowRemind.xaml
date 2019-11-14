@@ -1,0 +1,25 @@
+﻿<Window x:Class="Reminder.ShowRemind"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Reminder"
+        mc:Ignorable="d"
+        Height="462.666" Width="300" ResizeMode="NoResize" Title="Напоминание">
+    <StackPanel Orientation="Vertical" VerticalAlignment="Top">
+        <GroupBox Margin="5" Padding="5" Header="Заголовок:">
+            <TextBlock x:Name="remind_title" Margin="5"></TextBlock>
+        </GroupBox>
+
+        <StackPanel Orientation="Vertical" VerticalAlignment="Top">
+            <GroupBox Margin="5" Padding="5" Header="Дата:">
+                <TextBlock Margin="5" x:Name="remind_date"></TextBlock>
+            </GroupBox>
+
+            <GroupBox Margin="5" Padding="5" Header="Описание:">
+                <TextBlock Margin="5" x:Name="remind_discription" Height="200"></TextBlock>
+            </GroupBox>
+        </StackPanel>
+        <Button Margin="5" Width="100" x:Name="btn_ok" Click="btn_ok_Click">OK</Button>
+    </StackPanel>
+</Window>

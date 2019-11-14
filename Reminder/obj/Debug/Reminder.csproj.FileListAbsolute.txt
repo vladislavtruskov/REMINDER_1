@@ -1,0 +1,41 @@
+c:\users\мифодий\documents\visual studio 2015\Projects\Reminder\Reminder\bin\Debug\Reminder.exe.config
+c:\users\мифодий\documents\visual studio 2015\Projects\Reminder\Reminder\bin\Debug\Reminder.exe
+c:\users\мифодий\documents\visual studio 2015\Projects\Reminder\Reminder\bin\Debug\Reminder.pdb
+c:\users\мифодий\documents\visual studio 2015\Projects\Reminder\Reminder\obj\Debug\Reminder.csprojResolveAssemblyReference.cache
+c:\users\мифодий\documents\visual studio 2015\Projects\Reminder\Reminder\obj\Debug\MainWindow.g.cs
+c:\users\мифодий\documents\visual studio 2015\Projects\Reminder\Reminder\obj\Debug\App.g.cs
+c:\users\мифодий\documents\visual studio 2015\Projects\Reminder\Reminder\obj\Debug\Reminder_MarkupCompile.cache
+c:\users\мифодий\documents\visual studio 2015\Projects\Reminder\Reminder\obj\Debug\Reminder_MarkupCompile.lref
+c:\users\мифодий\documents\visual studio 2015\Projects\Reminder\Reminder\obj\Debug\MainWindow.baml
+c:\users\мифодий\documents\visual studio 2015\Projects\Reminder\Reminder\obj\Debug\Reminder.g.resources
+c:\users\мифодий\documents\visual studio 2015\Projects\Reminder\Reminder\obj\Debug\Reminder.Properties.Resources.resources
+c:\users\мифодий\documents\visual studio 2015\Projects\Reminder\Reminder\obj\Debug\Reminder.csproj.GenerateResource.Cache
+c:\users\мифодий\documents\visual studio 2015\Projects\Reminder\Reminder\obj\Debug\Reminder.exe
+c:\users\мифодий\documents\visual studio 2015\Projects\Reminder\Reminder\obj\Debug\Reminder.pdb
+c:\users\мифодий\documents\visual studio 2015\Projects\Reminder\Reminder\obj\Debug\AddRemind.g.cs
+c:\users\мифодий\documents\visual studio 2015\Projects\Reminder\Reminder\obj\Debug\AddRemind.baml
+C:\Users\Мифодий\Documents\Visual Studio 2015\Projects\Reminder\Reminder\obj\Debug\ShowRemind.g.cs
+C:\Users\Мифодий\Documents\Visual Studio 2015\Projects\Reminder\Reminder\obj\Debug\ShowRemind.baml
+C:\Users\Мифодий\Documents\Visual Studio 2015\Projects\Reminder\Reminder\obj\Debug\ShowActiveRemind.g.cs
+C:\Users\Мифодий\Documents\Visual Studio 2015\Projects\Reminder\Reminder\obj\Debug\ShowActiveRemind.baml
+C:\Users\Влад\Desktop\Reminder\bin\Debug\Reminder.exe.config
+C:\Users\Влад\Desktop\Reminder\bin\Debug\Reminder.exe
+C:\Users\Влад\Desktop\Reminder\bin\Debug\Reminder.pdb
+C:\Users\Влад\Desktop\Reminder\obj\Debug\Reminder.csprojAssemblyReference.cache
+C:\Users\Влад\Desktop\Reminder\obj\Debug\AddRemind.g.cs
+C:\Users\Влад\Desktop\Reminder\obj\Debug\MainWindow.g.cs
+C:\Users\Влад\Desktop\Reminder\obj\Debug\ShowActiveRemind.g.cs
+C:\Users\Влад\Desktop\Reminder\obj\Debug\ShowRemind.g.cs
+C:\Users\Влад\Desktop\Reminder\obj\Debug\App.g.cs
+C:\Users\Влад\Desktop\Reminder\obj\Debug\Reminder_MarkupCompile.cache
+C:\Users\Влад\Desktop\Reminder\obj\Debug\Reminder_MarkupCompile.lref
+C:\Users\Влад\Desktop\Reminder\obj\Debug\AddRemind.baml
+C:\Users\Влад\Desktop\Reminder\obj\Debug\MainWindow.baml
+C:\Users\Влад\Desktop\Reminder\obj\Debug\ShowActiveRemind.baml
+C:\Users\Влад\Desktop\Reminder\obj\Debug\ShowRemind.baml
+C:\Users\Влад\Desktop\Reminder\obj\Debug\Reminder.g.resources
+C:\Users\Влад\Desktop\Reminder\obj\Debug\Reminder.Properties.Resources.resources
+C:\Users\Влад\Desktop\Reminder\obj\Debug\Reminder.csproj.GenerateResource.cache
+C:\Users\Влад\Desktop\Reminder\obj\Debug\Reminder.csproj.CoreCompileInputs.cache
+C:\Users\Влад\Desktop\Reminder\obj\Debug\Reminder.exe
+C:\Users\Влад\Desktop\Reminder\obj\Debug\Reminder.pdb

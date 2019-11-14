@@ -1,0 +1,75 @@
+﻿<Window x:Class="Reminder.AddRemind"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Reminder"
+        mc:Ignorable="d"
+        Title="Новое напоминание" Height="600" Width="300" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+              <!-- заголовок-->
+        <GroupBox Grid.Row="0" Margin="5">
+            <GroupBox.Header>
+                <Label>Заголовок</Label>
+            </GroupBox.Header>
+            <GroupItem>
+                <TextBox Grid.Row="1" Margin="5,5,5,10" Name="remind_title"></TextBox>
+            </GroupItem>
+        </GroupBox>
+
+        <!-- описание -->
+        <GroupBox Grid.Row="1" Margin="5">
+            <GroupBox.Header>
+                <Label>Описание</Label>
+            </GroupBox.Header>
+            <GroupItem>
+                <TextBox Name="remind_discription" TextWrapping="Wrap" Height="100" Margin="5,5,5,10"></TextBox>
+            </GroupItem>
+        </GroupBox>
+        
+        <!-- дата -->
+        <GroupBox Grid.Row="2" Margin="5">
+            <GroupBox.Header>
+                <Label>Дата и время</Label>
+            </GroupBox.Header>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0" Orientation="Vertical" VerticalAlignment="Top" Margin="5">
+                    <Label>Дата</Label>
+                    <DatePicker x:Name="date_picker"></DatePicker>
+                </StackPanel>
+
+                <GroupBox Grid.Column="1">
+                    <GroupBox.Header>Часы</GroupBox.Header>
+                    <ComboBox x:Name="hour_value" Height="20" Width="50"></ComboBox>
+                </GroupBox>
+
+                <GroupBox Grid.Column="2">
+                    <GroupBox.Header>Минуты</GroupBox.Header>
+                    <ComboBox x:Name="minute_value" Height="20" Width="50"></ComboBox>
+                </GroupBox>
+            </Grid>
+        </GroupBox>
+
+        <!-- частота повторений -->
+
+        <StackPanel Grid.Row="5" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Name="btn_ok" Margin="10,5,10,5" Padding="5,0,5,0" Click="btn_ok_Click" Width="Auto">OK</Button>
+            <Button Name="btn_cancel" Margin="10,5,10,5" Padding="5,0,5,0" Click="btn_cancel_Click">Отмена</Button>
+        </StackPanel>
+    </Grid>
+</Window>
